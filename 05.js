@@ -7,7 +7,28 @@ let jogada = parseInt(prompt("Insira o número da sua jogada: "));
 var computer = [1,2,3];
 var random = computer[Math.floor(Math.random()*computer.length)];
 
-console.log(`${jogada} vs ${random}`);
+function nomeJogada(num) {
+    let jogada;
+    switch (num) {
+        case 1:
+            jogada = 'Pedra';
+            break;
+        case 2:
+            jogada = 'Papel';
+            break;
+        case 3:
+            jogada = 'Tesoura';
+            break;
+        default:
+            console.log("Jogada inválida!");
+            jogada = 'Inválida';
+            break;        
+    }
+    return jogada;
+}
+
+
+console.log(`${nomeJogada(jogada)} vs ${nomeJogada(random)}`);
 
 if (jogada === random){
     console.log("Empatou!");
