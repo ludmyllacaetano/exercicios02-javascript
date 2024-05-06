@@ -22,6 +22,8 @@
 
 6. Crie um jogo onde o computador vai sortear um número entre 1 e 5. O jogador vai tentar descobrir qual foi o valor sorteado.
 
+   [Resolução](https://github.com/ludmyllacaetano/exercicios02-javascript/blob/main/06.js)
+
 7. Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro popular custa R$ 90,00 por dia e um carro de luxo custa R$ 150,00. Além disso, o cliente paga por Km percorrido. Faça um programa que leia o tipo de carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km foram percorridos. No final, mostre o preço a ser pago de acordo com os dados a seguir:
    Carros populares
 
@@ -30,6 +32,8 @@
   Carros de luxo
 - Até 200 Km percorridos: R$ 0,30 por Km
 - Acima de 200 Km percorridos: R$ 0,25 por Km
+
+  [Resolução](https://github.com/ludmyllacaetano/exercicios02-javascript/blob/main/07.js)
 
 8. Um programa de vida saudável quer dar pontos por atividades físicas realizadas que podem ser trocados por dinheiro. Cada hora de atividade física no mês vale pontos. O sistema funciona assim:
 
@@ -40,8 +44,11 @@
 
   Faça um programa que leia quantas horas de atividade uma pessoa teve por mês. Calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.
 
-9. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final, mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um
-   funcionário.
+  [Resolução](https://github.com/ludmyllacaetano/exercicios02-javascript/blob/main/08.js)
+
+9. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final, mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um funcionário.
+
+[Resolução](https://github.com/ludmyllacaetano/exercicios02-javascript/blob/main/09.js)
 
 10. Crie um programa usando a estrutura “faça enquanto” que leia vários números. A cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela:
 
