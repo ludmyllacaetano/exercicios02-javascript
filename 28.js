@@ -14,13 +14,12 @@ function lerMatriz(numLinhas, numColunas){
     }
     return matrizM;
 }
-
-let matriz = lerMatriz(3, 3);
+let tamanho = 10;
+let matriz = lerMatriz(tamanho, tamanho);
 console.log("Matriz", matriz);
 
 let somaAcimaDaDiagonal = 0;
 let somaAbaixoDaDiagonal = 0;
-let tamanho = 3;
 
 for(let i = 0; i < tamanho; i++){
     for(let j = 0; j < tamanho; j++){
