@@ -1,23 +1,26 @@
 // Exercício 24: Contar negativos
 const prompt = require('prompt-sync')();
 
-// function lerMatriz(){
-//     let matriz = Array();
-//     for (let i = 0; i < 15; i++) {
-//         for (let j = 0; j < 20; j++) {
-//             matriz[i][j] = parseFloat(prompt("Insira um número: "));
+let matriz = Array();
+
+// function gerarMatrizAleatoria(){
+//     for(let i = 0; i < 15; i++){
+//         matriz[i] = Array();
+//         for(let j = 0; j < 20; j++){
+//             matriz[i].push(Math.ceil(Math.random()*100)-1 - Math.ceil(Math.random()*100)-1);
 //         }
 //     }
 //     return matriz;
 // }
 
-//let matriz = lerMatriz();
 
-let matriz = Array();
+for(let i =  0; i < 15; i++) {
+    matriz[i] = []
+}
+
 for(let i = 0; i < 15; i++){
-    matriz[i] = Array();
-    for(let j = 0; j < 20; j++){
-        matriz[i].push(Math.ceil(Math.random()*1000)-1 - Math.ceil(Math.random()*1000)-1);
+    for (let j = 0; j < 20; j++) {
+        matriz[i][j] = parseFloat(prompt("Insira o número: "));
     }
 }
 
