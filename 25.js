@@ -1,4 +1,4 @@
-// Exercício 24: Contar negativos
+// Exercício 25: Somar Colunas da Matriz
 const prompt = require('prompt-sync')();
 
 let matriz = Array();
