@@ -1,4 +1,4 @@
-// Exercício 32: 
+// Exercício 32: ler e dividir
 const prompt = require('prompt-sync')();
 
 // function lerMatriz(numLinhas, numColunas){
