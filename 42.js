@@ -1,3 +1,5 @@
+// Exercício 42: Objeto dados
+
 const dados = {
     nome: "GoGo AutoPeças",
     produtos: ["chave", "parafuso", "pneu"],
